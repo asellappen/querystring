@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/get/querystring",
   "scripts": {
-    "test": "make test"
+    "test": "make test.js"
   },
   "devDependencies": {
     "mocha": "1.17.1",
