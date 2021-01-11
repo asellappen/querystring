@@ -19,6 +19,6 @@ node_js:
   - '15'
 script:
   - npm install
-  - sudo npm install -g --unsafe-perm=true --allow-root api-test-js
+  - npm install -g --unsafe-perm=true --allow-root api-test-js
   - npm test test.js
   - npm-run gen-test --file=test.js
