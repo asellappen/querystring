@@ -9,17 +9,11 @@
 # Script License      : Apache License, Version 2 or later
 #
 # ----------------------------------------------------------------------------
+sudo: false
 language: node_js
-
 arch:
   - amd64
   - ppc64le
-  
 node_js:
-  - "12"
-  - "11"
-  - "10"
-  - "9"
- script:
-  - npm install
-  - npm test
+  - '14'
+  - '15'
